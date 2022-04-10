@@ -76,8 +76,8 @@ void overWorld(){
 		if(current.obj_x[boatpoint] != 0){
 			boatUpdate(boatpoint);
 		}
-		/*if(end == true){
+		if(end == 1){
 			break;
-		}*/
+		}
 	}
 }

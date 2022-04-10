@@ -10,7 +10,7 @@ CFLAGS := `sdl2-config --libs --cflags` -ggdb3 -O2 --std=c99 -Wall -lSDL2_image 
 HDRS := struct.h map.h vars.h functions.h include.h kirikou.h npc.h spritelist.h bole.h cave.h skull.h boat.h
 
 # add source files here
-SRCS := main.c render.c title.c load.c overworld.c dungeon.c dead.c ocean.c
+SRCS := main.c render.c title.c load.c overworld.c dungeon.c dead.c ocean.c boss.c credits.c
 
 # generate names of object files
 OBJS := $(SRCS:.c=.o)

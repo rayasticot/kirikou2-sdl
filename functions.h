@@ -29,4 +29,6 @@ void caveUpdate(int i, struct map curr, struct map neww);
 void Dungeon();
 void Ocean(struct map next);
 void boatUpdate(int i);
+void Boss();
+void Credits();
 #endif

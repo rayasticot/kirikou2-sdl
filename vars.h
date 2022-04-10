@@ -27,6 +27,8 @@ int skullx[16];
 int skully[16];
 int dir[16];
 _Bool skullLive[16];
+_Bool bul;
+_Bool lock;
 
 struct map current;
 struct map old;

@@ -84,6 +84,7 @@ int main(){
     kirikouStart(480, 480);
 	loadRoom(benin[1][1], benin[1][1]);
     overWorld();
+    Credits();
     
     SDL_Event event;
 

@@ -83,12 +83,12 @@ void Dungeon(){
 			skullUpdate(i+5);
 		}
     	Update();
-		/*if(cpos == 1 && levelindex == 3){
+		if(cpos == 1 && levelindex == 3){
 			Boss();
 			if(end == true){
 				break;
 			}
-		}*/
+		}
 		if(cpos == 4){
 			dingue = false;
 			cpos = 0;
