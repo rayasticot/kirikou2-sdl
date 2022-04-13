@@ -108,7 +108,7 @@ void Boss(){
 
     rect[20].y = 0;
     karaba_h = 0;
-    karaba_life = 2;
+    karaba_life = 10;
     timer = 0;
     tempx = 896;
     karaba_dir = false;

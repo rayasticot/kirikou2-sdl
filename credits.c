@@ -9,7 +9,7 @@
 uint16_t timmy = 0;
 uint16_t jimmy = 0;
 uint8_t james = 0;
-char paul[20]; 
+char paul[22]; 
 
 
 void Credits(){

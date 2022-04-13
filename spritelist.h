@@ -48,8 +48,8 @@ void setList(){
     list[3].link[4] = "sprite/re/npc3.png";
     list[3].link[5] = "sprite/be/cave.png";
     list[3].link[6] = "sprite/be/bole.png";
-    list[3].link[7] = "sprite/re/obj0.png";
-    list[3].link[8] = "sprite/re/obj1.png";
-    list[3].link[9] = "sprite/re/obj2.png";
+    list[3].link[7] = "sprite/re/obj1.png";
+    list[3].link[8] = "sprite/re/obj2.png";
+    list[3].link[9] = "sprite/re/obj3.png";
 }
 #endif

@@ -17,7 +17,7 @@ void Title(){
                     close_requested = 1;
                     break;
                 case SDL_KEYDOWN:
-                    if(event.key.keysym.scancode == SDL_SCANCODE_RETURN){
+                    if(event.key.keysym.scancode == SDL_SCANCODE_SPACE){
                         enter = 1;
                     }
                     break;

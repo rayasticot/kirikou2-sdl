@@ -2,13 +2,9 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_timer.h>
 #include <SDL2/SDL_image.h>
+#include <SDL_mixer.h>
 
-SDL_Texture* tex[30];
-uint8_t texindex[30];
-SDL_Rect rect[30];
-SDL_Window* win;
-Uint32 render_flags;
-SDL_Renderer* rend;
+#include "include.h"
 
 void createImage(char* link, uint8_t id, int16_t x, int16_t y){
     SDL_Surface* surface = IMG_Load(link);
