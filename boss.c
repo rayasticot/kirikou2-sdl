@@ -35,7 +35,7 @@ void Karaba(){
         rect[20].y += 8;
     }
     //NF_MoveSprite(1, 19, tempx, karaba_h);
-    if(checkCollision(rect[1].x, rect[1].y, 64, 128, rect[20].x, rect[20].y, 128, 256) == true){
+    if(checkCollision(rect[1].x, rect[1].y, 64, 128, rect[20].x, rect[20].y, 64, 128) == true){
         alive = false;
     }
     if(timer == 240){

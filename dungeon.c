@@ -101,6 +101,11 @@ void Dungeon(){
 
 			if(levelindex == 2){
 				loadCine(9);
+				up = 0;
+				down = 0;
+				left = 0;
+				right = 0;
+				space = 0;
 			}
 			loadRoom(old, current);
 			createImage("sprite/kirikouvide.png", 1, 480, 480);

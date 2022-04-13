@@ -1,10 +1,10 @@
 # A simple Makefile for compiling small SDL projects
 
 # set the compiler
-CC := gcc
+CC := x86_64-w64-mingw32-gcc
 
 # set the compiler flags
-CFLAGS := `sdl2-config --libs --cflags` -ggdb3 -O2 --std=c99 -Wall -lSDL2_image -lSDL2_mixer -lm
+CFLAGS := `sdl2-config --libs --cflags` -ggdb3 -O2 --std=c99 -Wall -lSDL2_image -lSDL2_mixer -lm -mwindows
 
 # add header files here
 HDRS := struct.h map.h vars.h functions.h include.h kirikou.h npc.h spritelist.h bole.h cave.h skull.h boat.h
